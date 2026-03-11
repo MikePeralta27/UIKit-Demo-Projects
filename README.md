@@ -97,8 +97,7 @@ No external dependencies or package managers; the project uses only the iOS SDK.
 ---
 
 ## Screenshots
-
-_Add screenshots of the calculator (e.g. portrait and landscape) for your portfolio._
+<img width="435" height="871" alt="Screenshot 2026-03-10 at 9 13 22 PM" src="https://github.com/user-attachments/assets/a89476e4-0472-4643-801e-b819878158e7" />
 
 ---
 
