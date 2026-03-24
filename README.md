@@ -14,6 +14,11 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 | [`EggTimer-iOS13/`](EggTimer-iOS13/) | Egg timer / countdown demo (iOS 13) — [source repo](https://github.com/MikePeralta27/EggTimer-iOS13) |
 | [`Quizzler-LayoutPractice-iOS13/`](Quizzler-LayoutPractice-iOS13/) | Quiz app layout practice (iOS 13) — [source repo](https://github.com/MikePeralta27/Quizzler-LayoutPractice-iOS13) |
 | [`Destini-iOS13/`](Destini-iOS13/) | Choose-your-own-adventure style story app (iOS 13) — [source repo](https://github.com/MikePeralta27/Destini-iOS13) |
+| [`BMI-Calculator-iOS13/`](BMI-Calculator-iOS13/) | BMI calculator (iOS 13) — [source repo](https://github.com/MikePeralta27/BMI-Calculator-iOS13) |
+| [`Tipsy-iOS13/`](Tipsy-iOS13/) | Tip calculator / bill splitter (iOS 13) — [source repo](https://github.com/MikePeralta27/Tipsy-iOS13) |
+| [`Clima-iOS13/`](Clima-iOS13/) | Weather app (API, location, dark mode) — [source repo](https://github.com/MikePeralta27/Clima-iOS13) |
+| [`ByteCoin-iOS13/`](ByteCoin-iOS13/) | Crypto price tracker (CoinAPI-style demo) — [source repo](https://github.com/MikePeralta27/ByteCoin-iOS13) |
+| [`Flash-Chat-IOS/`](Flash-Chat-IOS/) | Chat UI (CocoaPods; Firebase-style course project) — [source repo](https://github.com/MikePeralta27/Flash-Chat-IOS) |
 
 ## Layout
 
