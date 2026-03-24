@@ -19,6 +19,12 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 | [`Clima-iOS13/`](Clima-iOS13/) | Weather app (API, location, dark mode) — [source repo](https://github.com/MikePeralta27/Clima-iOS13) |
 | [`ByteCoin-iOS13/`](ByteCoin-iOS13/) | Crypto price tracker (CoinAPI-style demo) — [source repo](https://github.com/MikePeralta27/ByteCoin-iOS13) |
 | [`Flash-Chat-IOS/`](Flash-Chat-IOS/) | Chat UI (CocoaPods; Firebase-style course project) — [source repo](https://github.com/MikePeralta27/Flash-Chat-IOS) |
+| [`H4cking-News/`](H4cking-News/) | Hacker News–style feed (Swift) — [source repo](https://github.com/MikePeralta27/H4cking-News) |
+| [`MichaelCard/`](MichaelCard/) | Personal “business card” style app — [source repo](https://github.com/MikePeralta27/MichaelCard) |
+| [`Dice-SwiftUI/`](Dice-SwiftUI/) | Dice roller (SwiftUI) — [source repo](https://github.com/MikePeralta27/Dice-SwiftUI) |
+| [`I-am-Rich-SwiftUI/`](I-am-Rich-SwiftUI/) | “I am Rich” (SwiftUI) — [source repo](https://github.com/MikePeralta27/I-am-Rich-SwiftUI) |
+| [`Todoey-IOS16/`](Todoey-IOS16/) | Todo list (iOS 16; persistence demo) — [source repo](https://github.com/MikePeralta27/Todoey-IOS16) |
+| [`Agenda-IOS16/`](Agenda-IOS16/) | Agenda / notes-style app (iOS 16) — [source repo](https://github.com/MikePeralta27/Agenda-IOS16) |
 
 ## Layout
 
