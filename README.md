@@ -13,18 +13,39 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 
 - **`<RepoName>/`** — one directory per imported repository, directly under the monorepo root (sibling to this `README.md`).
 
+## Adding a demo (branch + pull request)
+
+Each new demo should land via a **short-lived branch** and a **pull request** into `main`, with a **brief** PR description (what the demo shows, folder name, optional source link). GitHub will suggest [`.github/pull_request_template.md`](.github/pull_request_template.md).
+
+```bash
+git checkout main && git pull origin main
+git checkout -b add/<FolderName>
+
+# SSH URL avoids HTTPS auth prompts for GitHub
+git remote add <shortname> git@github.com:MikePeralta27/<Repo>.git
+git fetch <shortname>
+git subtree add --prefix=<FolderName> <shortname>/main   # or master; use local ref to skip extra fetch
+git remote remove <shortname>
+
+# Update the table in README.md, then:
+git add README.md
+git commit -m "Document <FolderName> in README"
+git push -u origin add/<FolderName>
+gh pr create --base main --title "Add <FolderName> demo" --body "Short note about what this demo shows."
+```
+
 ## Importing another repo (history preserved)
 
-From the monorepo root, use the folder name you want at root (often the same as the GitHub repo name):
+Subtree details (same as above, without the branch/PR steps):
 
 ```bash
 git remote add <shortname> <repo-url>
 git fetch <shortname>
-git subtree add --prefix=<shortname> <shortname> <branch>
+git subtree add --prefix=<FolderName> <shortname> <branch>
 git remote remove <shortname>
 ```
 
-Example: if the repo is `ScrollViewPlayground` and its default branch is `main`:
+Example: repo `ScrollViewPlayground`, default branch `main`:
 
 ```bash
 git subtree add --prefix=ScrollViewPlayground scrollview main
