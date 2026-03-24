@@ -37,3 +37,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Editor / local GitHub metadata (keep out of remote)
+.cursor/
+.github/
