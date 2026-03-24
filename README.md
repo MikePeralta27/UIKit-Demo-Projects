@@ -6,7 +6,7 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 
 | Folder | Description |
 |--------|-------------|
-| *(none yet — add rows as subtrees are merged)* | |
+| [`I-am-Rich/`](I-am-Rich/) | “I am Rich” demo app — [source repo](https://github.com/MikePeralta27/I-am-Rich) |
 
 ## Layout
 
