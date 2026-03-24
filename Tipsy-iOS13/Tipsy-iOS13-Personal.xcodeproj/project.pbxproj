@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C826F2B42932D42300120CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C826F2B32932D42300120CFE /* AppDelegate.swift */; };
+		C826F2B62932D42300120CFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C826F2B52932D42300120CFE /* SceneDelegate.swift */; };
+		C826F2B82932D42300120CFE /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C826F2B72932D42300120CFE /* CalculatorViewController.swift */; };
+		C826F2BB2932D42300120CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C826F2B92932D42300120CFE /* Main.storyboard */; };
+		C826F2BD2932D42300120CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C826F2BC2932D42300120CFE /* Assets.xcassets */; };
+		C826F2C02932D42300120CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C826F2BE2932D42300120CFE /* LaunchScreen.storyboard */; };
+		C83426172940090B00B45BEC /* Tipsy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83426162940090B00B45BEC /* Tipsy.swift */; };
+		C8342619294009B200B45BEC /* TipsyBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8342618294009B200B45BEC /* TipsyBrain.swift */; };
+		C8ED65822935BE6C00332D05 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ED65812935BE6C00332D05 /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C826F2B02932D42300120CFE /* Tipsy-iOS13-Personal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tipsy-iOS13-Personal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C826F2B32932D42300120CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C826F2B52932D42300120CFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C826F2B72932D42300120CFE /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		C826F2BA2932D42300120CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C826F2BC2932D42300120CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C826F2BF2932D42300120CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C826F2C12932D42300120CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83426162940090B00B45BEC /* Tipsy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipsy.swift; sourceTree = "<group>"; };
+		C8342618294009B200B45BEC /* TipsyBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyBrain.swift; sourceTree = "<group>"; };
+		C8ED65812935BE6C00332D05 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C826F2AD2932D42300120CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C826F2A72932D42300120CFE = {
+			isa = PBXGroup;
+			children = (
+				C826F2B22932D42300120CFE /* Tipsy-iOS13-Personal */,
+				C826F2B12932D42300120CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C826F2B12932D42300120CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C826F2B02932D42300120CFE /* Tipsy-iOS13-Personal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C826F2B22932D42300120CFE /* Tipsy-iOS13-Personal */ = {
+			isa = PBXGroup;
+			children = (
+				C826F2B32932D42300120CFE /* AppDelegate.swift */,
+				C826F2B52932D42300120CFE /* SceneDelegate.swift */,
+				C8342615294008D200B45BEC /* Models */,
+				C8ED65832935BE7A00332D05 /* Controllers */,
+				C8342614294007FF00B45BEC /* View */,
+				C826F2BC2932D42300120CFE /* Assets.xcassets */,
+				C826F2BE2932D42300120CFE /* LaunchScreen.storyboard */,
+				C826F2C12932D42300120CFE /* Info.plist */,
+			);
+			path = "Tipsy-iOS13-Personal";
+			sourceTree = "<group>";
+		};
+		C8342614294007FF00B45BEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C826F2B92932D42300120CFE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8342615294008D200B45BEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C83426162940090B00B45BEC /* Tipsy.swift */,
+				C8342618294009B200B45BEC /* TipsyBrain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C8ED65832935BE7A00332D05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C826F2B72932D42300120CFE /* CalculatorViewController.swift */,
+				C8ED65812935BE6C00332D05 /* ResultsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C826F2AF2932D42300120CFE /* Tipsy-iOS13-Personal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C826F2C42932D42300120CFE /* Build configuration list for PBXNativeTarget "Tipsy-iOS13-Personal" */;
+			buildPhases = (
+				C826F2AC2932D42300120CFE /* Sources */,
+				C826F2AD2932D42300120CFE /* Frameworks */,
+				C826F2AE2932D42300120CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tipsy-iOS13-Personal";
+			productName = "Tipsy-iOS13-Personal";
+			productReference = C826F2B02932D42300120CFE /* Tipsy-iOS13-Personal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C826F2A82932D42300120CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C826F2AF2932D42300120CFE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = C826F2AB2932D42300120CFE /* Build configuration list for PBXProject "Tipsy-iOS13-Personal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C826F2A72932D42300120CFE;
+			productRefGroup = C826F2B12932D42300120CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C826F2AF2932D42300120CFE /* Tipsy-iOS13-Personal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C826F2AE2932D42300120CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C826F2C02932D42300120CFE /* LaunchScreen.storyboard in Resources */,
+				C826F2BD2932D42300120CFE /* Assets.xcassets in Resources */,
+				C826F2BB2932D42300120CFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C826F2AC2932D42300120CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83426172940090B00B45BEC /* Tipsy.swift in Sources */,
+				C826F2B82932D42300120CFE /* CalculatorViewController.swift in Sources */,
+				C826F2B42932D42300120CFE /* AppDelegate.swift in Sources */,
+				C826F2B62932D42300120CFE /* SceneDelegate.swift in Sources */,
+				C8342619294009B200B45BEC /* TipsyBrain.swift in Sources */,
+				C8ED65822935BE6C00332D05 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C826F2B92932D42300120CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C826F2BA2932D42300120CFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C826F2BE2932D42300120CFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C826F2BF2932D42300120CFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C826F2C22932D42300120CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C826F2C32932D42300120CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C826F2C52932D42300120CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GG8ZXNPYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tipsy-iOS13-Personal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelp.Tipsy-iOS13-Personal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C826F2C62932D42300120CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GG8ZXNPYVQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tipsy-iOS13-Personal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelp.Tipsy-iOS13-Personal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C826F2AB2932D42300120CFE /* Build configuration list for PBXProject "Tipsy-iOS13-Personal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C826F2C22932D42300120CFE /* Debug */,
+				C826F2C32932D42300120CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C826F2C42932D42300120CFE /* Build configuration list for PBXNativeTarget "Tipsy-iOS13-Personal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C826F2C52932D42300120CFE /* Debug */,
+				C826F2C62932D42300120CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C826F2A82932D42300120CFE /* Project object */;
+}
