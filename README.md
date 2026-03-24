@@ -24,6 +24,7 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 | [`Dice-SwiftUI/`](Dice-SwiftUI/) | Dice roller (SwiftUI) — [source repo](https://github.com/MikePeralta27/Dice-SwiftUI) |
 | [`I-am-Rich-SwiftUI/`](I-am-Rich-SwiftUI/) | “I am Rich” (SwiftUI) — [source repo](https://github.com/MikePeralta27/I-am-Rich-SwiftUI) |
 | [`Todoey-IOS16/`](Todoey-IOS16/) | Todo list (iOS 16; persistence demo) — [source repo](https://github.com/MikePeralta27/Todoey-IOS16) |
+| [`Agenda-IOS16/`](Agenda-IOS16/) | Agenda / notes-style app (iOS 16) — [source repo](https://github.com/MikePeralta27/Agenda-IOS16) |
 
 ## Layout
 
