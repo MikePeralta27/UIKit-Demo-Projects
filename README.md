@@ -10,6 +10,9 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 | [`I-Am-Poor/`](I-Am-Poor/) | “I Am Poor” demo app — [source repo](https://github.com/MikePeralta27/I-Am-Poor) |
 | [`Magic-8-Ball-iOS13/`](Magic-8-Ball-iOS13/) | Magic 8 Ball (iOS 13 / storyboard-style demo) — [source repo](https://github.com/MikePeralta27/Magic-8-Ball-iOS13) |
 | [`Calculator-Layout-iOS13/`](Calculator-Layout-iOS13/) | Calculator UI layout (iOS 13 / storyboard) — [source repo](https://github.com/MikePeralta27/Calculator-Layout-iOS13) |
+| [`EggTimer-iOS13/`](EggTimer-iOS13/) | Egg timer / countdown demo (iOS 13) — [source repo](https://github.com/MikePeralta27/EggTimer-iOS13) |
+| [`Quizzler-LayoutPractice-iOS13/`](Quizzler-LayoutPractice-iOS13/) | Quiz app layout practice (iOS 13) — [source repo](https://github.com/MikePeralta27/Quizzler-LayoutPractice-iOS13) |
+| [`Destini-iOS13/`](Destini-iOS13/) | Choose-your-own-adventure style story app (iOS 13) — [source repo](https://github.com/MikePeralta27/Destini-iOS13) |
 
 ## Layout
 
