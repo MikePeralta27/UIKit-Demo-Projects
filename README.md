@@ -25,6 +25,11 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 | [`I-am-Rich-SwiftUI/`](I-am-Rich-SwiftUI/) | “I am Rich” (SwiftUI) — [source repo](https://github.com/MikePeralta27/I-am-Rich-SwiftUI) |
 | [`Todoey-IOS16/`](Todoey-IOS16/) | Todo list (iOS 16; persistence demo) — [source repo](https://github.com/MikePeralta27/Todoey-IOS16) |
 | [`Agenda-IOS16/`](Agenda-IOS16/) | Agenda / notes-style app (iOS 16) — [source repo](https://github.com/MikePeralta27/Agenda-IOS16) |
+| [`AutoLayout-iOS13/`](AutoLayout-iOS13/) | Auto Layout practice (iOS 13) |
+| [`Calculator-Advanced-Swift-iOS13/`](Calculator-Advanced-Swift-iOS13/) | Advanced Swift calculator (iOS 13) |
+| [`CoreDataTest/`](CoreDataTest/) | Core Data scratch / test app |
+| [`InspoQuotes-iOS13/`](InspoQuotes-iOS13/) | Inspirational quotes demo (iOS 13) |
+| [`SeaFood1/`](SeaFood1/) | SeaFood / image-classification style UIKit demo |
 
 ## Layout
 
