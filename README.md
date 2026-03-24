@@ -9,6 +9,7 @@ A monorepo of small UIKit sample apps and experiments. Each original GitHub proj
 | [`I-am-Rich/`](I-am-Rich/) | “I am Rich” demo app — [source repo](https://github.com/MikePeralta27/I-am-Rich) |
 | [`I-Am-Poor/`](I-Am-Poor/) | “I Am Poor” demo app — [source repo](https://github.com/MikePeralta27/I-Am-Poor) |
 | [`Magic-8-Ball-iOS13/`](Magic-8-Ball-iOS13/) | Magic 8 Ball (iOS 13 / storyboard-style demo) — [source repo](https://github.com/MikePeralta27/Magic-8-Ball-iOS13) |
+| [`Xylophone-iOS13/`](Xylophone-iOS13/) | Xylophone keys with sounds (iOS 13 / UIKit demo) — [source repo](https://github.com/MikePeralta27/Xylophone-iOS13) |
 | [`Calculator-Layout-iOS13/`](Calculator-Layout-iOS13/) | Calculator UI layout (iOS 13 / storyboard) — [source repo](https://github.com/MikePeralta27/Calculator-Layout-iOS13) |
 
 ## Layout
